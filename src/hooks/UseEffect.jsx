@@ -1,7 +1,6 @@
-
-import { useEffect, useSelector } from 'react';
+import { useEffect, } from 'react';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setBlog } from './../store/blog/blogAction';
 
 
